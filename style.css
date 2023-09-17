@@ -1,20 +1,21 @@
 *{
-    margin: 0;
+    margin: 0.2rem;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: black;
+.topo{
+    display: flex;
+    justify-content: left;
+    height: 15rem;
 }
 
-div {
-    background-color: bisque;  
-    height: 30rem;
-    width: 50rem;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    text-align: center;
+.foto-perfil{
+    width: 15rem;
+}
+
+.especialidades{
+    border-style: dashed;
     border-radius: 0.5rem;
+    border-color: black;
 }
